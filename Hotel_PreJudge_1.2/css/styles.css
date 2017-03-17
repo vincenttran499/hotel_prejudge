@@ -1,0 +1,96 @@
+.navbar {
+    color: #0099ff;
+    padding: 5px;
+    display: block;
+}
+
+ body
+  { padding-top: 40px;}
+
+#navbar {
+    display: block;
+    float: left;
+}
+
+div {
+    display: block;
+}
+
+.left img {
+    width: 90%;
+    height: 20%;
+}
+
+.ptag {
+    padding-top: 50px;
+}
+
+.mid h3 {
+    font-size: 2.5em;
+}
+
+.mid p {
+    font-size: 1.35em;
+}
+
+.mid h4 {
+    font-size: 2em;
+}
+
+.midPic {
+    width: 100%;
+    height: 300px;
+}
+
+.midPic2 {
+    width: 100%;
+    height: 330px;
+}
+
+
+/*calendar styles*/
+
+.calen {
+    padding-top: 20%;
+    width: 150%;
+}
+
+.panel-title.event {
+    font-size: 2.2em;
+}
+
+.panel.date {
+    margin: 0px;
+    width: 60px;
+    text-align: center;
+}
+
+.panel.date .month {
+    padding: 2px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.panel.date .day {
+    padding: 3px 0px;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.panel-body h4 {
+    font-size: 2em;
+}
+
+.panel-body p {
+    font-size: 1.6em;
+}
+
+
+/*end calendar styles*/
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    border-top: 2px solid #0099ff;
+    font-size: 2em;
+}

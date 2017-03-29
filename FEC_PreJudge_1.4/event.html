@@ -1,0 +1,134 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <title>S&E Events Page</title>
+
+  <!-- Bootstrap -->
+  <!-- <link href="css/bootstrap.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+</head>
+
+<body>
+  <!-- begin navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+        <a class="navbar-brand" href="index.html">Srestub & Evad</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="event.html">Parties and Event planning</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!--/.nav-collapse -->
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-xs-12">
+        <img src="img/logo.png">
+      </div>
+      <div class="col-lg-9 col-md-3 col-xs-12">
+        <h2>Please Schedule at least 2 weeks ahead of time. Otherwise, you will not be guarenteed any scheduling</h2>
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Insert Email Here">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Cell Phone Number to Contact</label>
+            <input type="tel" class="form-control" id="tele" placeholder="(###)###-####">
+          </div>
+          <div class="form-group">
+            <label for="timing">Please Insert The Desired Time for the Event</label>
+            <!-- <input type="text" class="form-control" id="timing" placeholder="Month-Day-Year  Time(AM/PM)"> -->
+            <div class="row">
+              <div class="col-xs-12 col-md-12 col-lg-9">
+                <input type="datetime-local" class="form-control">
+              </div>
+            </div>
+            <p>*Timings are not always available. If a certain hour/time segment is taken, we will contact you for alternative timings*</p>
+          </div>
+          <div class="form-group">
+            <label for="options">Select a Package (if desired)</label> <br>
+            <label for="options">cake is free for birthdays</label>
+            <select multiple class="form-control">
+  <option>No Package</option>
+  <option>Ordinary Package: 10 play points per person ($50)</option>
+  <option>Great Package:3 Entree items and 15 play points per person ($75)</option>
+  <option>Deluxe Package: includes Great Package, With Unlimited drinks and 20 play points per person ($125)</option>
+  <option>Premium Package: 6 Entree items, Unlimited Drinks, 50 Points per person ($200)</option>
+</select>
+          </div>
+          <div class="checkbox">
+            <label>
+      <input type="checkbox"> Check the box if Event is for a Birthday
+    </label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <p>Copyright &copy;, All Rights Reserved</p>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8">
+
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+  </script>
+
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.js"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
